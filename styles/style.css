@@ -1,0 +1,330 @@
+/* oswald-500 - latin_cyrillic */
+@font-face {
+  font-display: swap;
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/oswald-v49-latin_cyrillic-500.woff2') format('woff2'),
+    /* Chrome 36+, Opera 23+, Firefox 39+ */
+    url('../fonts/oswald-v49-latin_cyrillic-500.woff') format('woff');
+  /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* montserrat-regular - latin_cyrillic */
+@font-face {
+  font-display: swap;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/montserrat-v25-latin_cyrillic-regular.woff2') format('woff2'),
+    /* Chrome 36+, Opera 23+, Firefox 39+ */
+    url('../fonts/montserrat-v25-latin_cyrillic-regular.woff') format('woff');
+  /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* montserrat-500 - latin_cyrillic */
+@font-face {
+  font-display: swap;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/montserrat-v25-latin_cyrillic-500.woff2') format('woff2'),
+    /* Chrome 36+, Opera 23+, Firefox 39+ */
+    url('../fonts/montserrat-v25-latin_cyrillic-500.woff') format('woff');
+  /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* common */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #060D10;
+}
+
+.container {
+  width: 1287px;
+  margin: 0 auto;
+}
+
+/* header */
+
+.header {
+  padding: 29px 0;
+  background-color: #66D1FF;
+}
+
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-btn {
+  display: inline-block;
+  min-width: 276px;
+  padding: 8px 0;
+  font-family: inherit;
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 500;
+  text-align: center;
+  color: #060D10;
+  background-color: #fff;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  filter: drop-shadow(0px 0px 3px rgba(255, 255, 255, 0.25));
+  cursor: pointer;
+}
+
+.header-img {
+  max-width: 295.5px;
+  max-height: 50.76px;
+}
+
+.tel {
+  color: #060D10;
+  font-size: 28px;
+  line-height: 34px;
+  font-weight: 500;
+  font-style: normal;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* about */
+
+.about {
+  text-align: center;
+  background-image: url(../images/bg-about.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #FFFFFF;
+  text-shadow: 1px 1px 2px #060d10;
+}
+
+.about-fade {
+  padding: 240px 0 260px;
+  background-color: rgba(6, 13, 16, .25);
+}
+
+
+.about-title {
+  margin-top: 0;
+  margin-bottom: 60px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 60px;
+  line-height: 89px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.about-desc {
+  margin-bottom: 0;
+  font-size: 32px;
+  line-height: 39px;
+  font-weight: 500;
+}
+
+/* benefits */
+
+.benefits {
+  padding: 170px 0;
+  background-color: rgba(102, 209, 255, .1);
+}
+
+.benefits-title {
+  margin-top: 0;
+  margin-bottom: 100px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 48px;
+  line-height: 80px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.benefits-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  margin-left: -15px;
+  margin-right: -15px;
+  list-style: none;
+}
+
+.benefits-item {
+  width: 33.33%;
+  padding: 15px;
+}
+
+.benefits-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: flex-start;
+  height: 100%;
+
+}
+
+.benefits-caption {
+  margin-top: 0;
+  margin-bottom: 25px;
+  font-family: 'Oswald', serif;
+  font-size: 32px;
+  line-height: 53px;
+  font-weight: 500;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.benefits-text {
+  margin: 0;
+  font-size: 26px;
+  line-height: 36px;
+  text-align: left;
+  opacity: .8;
+}
+
+/* Line */
+
+.line {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(102, 209, 255, .1);
+}
+
+.line-img {
+  display: block;
+  width: 100%;
+  opacity: .5;
+}
+
+/* lead */
+
+.lead {
+  padding: 170px 0 180px;
+  background: linear-gradient(208.35deg, rgba(102, 209, 255, .1) 43.85%, rgba(196, 196, 196, 0) 43.86%);
+}
+
+.lead-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lead-title {
+  margin-top: 0;
+  margin-bottom: 60px;
+  font-family: 'Oswald', serif;
+  font-size: 48px;
+  line-height: 80px;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow:  0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.lead-btn {
+  display: inline-block;
+  min-width: 505px;
+  padding: 21px 0;
+  font-family: inherit;
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: 500;
+  text-align: center;
+  border: 1px solid #000000;
+  cursor: pointer;
+  }
+
+.btn-transparent {
+  background-color: rgba(0, 0, 0, 0);
+  color: inherit;
+}
+
+.lead-gallery-item {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.lead-gallery {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 130px;
+  margin-bottom: 0;
+  margin-left: -15px;
+  margin-right: -15px;
+  padding: 0;
+  list-style: none;
+}
+
+.lead-img {
+  max-width: 100%;
+}
+
+/* footer */
+
+.footer {
+  padding: 35px 0;
+  color: #FFFFFF;
+  background-color: #060D10;
+}
+
+.footer-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-text {
+  margin-right: 50px;
+  font-size: 20px;
+  line-height: 33px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.footer-social {
+  display: inline-flex;
+  align-items: center;
+  margin: 0;
+
+}
+
+.socials {
+  display: flex;
+  margin-right: -20px;
+  padding: 0;
+  list-style: none;
+}
+
+.socials-item {
+  margin-right: 20px;
+}
+
+.socials-link {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.copyright {
+  margin-left: 623px;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 500;
+  text-align: right;
+}
